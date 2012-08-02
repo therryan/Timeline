@@ -1,0 +1,29 @@
+#timeline {
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding: 0%;
+	background-color: #65BAFF;
+	list-style-type: none;
+	display: none;
+}
+
+li {
+	border: 1px solid #999;
+}
+
+.century {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	font: 200% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.year {
+	color: yellow;
+	font-family: monospace;
+}
+
+.desc {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+}
