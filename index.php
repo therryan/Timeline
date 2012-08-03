@@ -9,14 +9,20 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="model.js"></script>
 	<script type="text/javascript">
+	
 	$(document).ready(function() {
-		loadTimeline($("#timeline"));
+		loadTimeline($("#timeline"), 1770, 2020, 10);
 	});
 	</script>
 </head>
 <body>
-<div id="container">
-	<ul id="timeline">
+<div id="timeline">
+	<div id="eras">
+	</div>
+	<div id="markers">
+	</div>
+	<div id="events">
+	</div>
 <?php
 	// This presumes that the database already exists
 	try {
@@ -88,21 +94,15 @@
 		}
 		
 		if ($type == "event" || $type == "death") {
-			echo <<<DOC
-		<li class="event">
+			/*echo <<<DOC
+		<span class="event">
 			<span class="date">$date</span>
 			<span class="desc">$desc</span>
-		</li>\n
-DOC;
-		} elseif ($type == "century") {
-			if (!empty($desc)) {
-				die("The century $date has a description attached to it!");
-			}
-			echo "\t\t<li class=\"century\">$date</li>\n";
+		</span>\n
+DOC;*/
 		}
 	}		
 ?>
-	</ul>
 </div>
 </body>
 </html>

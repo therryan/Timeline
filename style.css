@@ -1,25 +1,50 @@
+body {
+	margin: 0px;
+}
+
 #timeline {
 	margin-left: auto;
 	margin-right: auto;
-	width: 20%;
-	padding: 0%;
-	background-color: #65BAFF;
+	width: 400px;
+	padding: 0px;
 	list-style-type: none;
 	display: none;
+	background-color: black;
 }
 
-li {
-	border: 1px solid #999;
+#eras {
+	width: 150px;
+	height: inherit;
+	float: left;
+	background-color: green;
 }
+
+#markers {
+	width: 100px;
+	height: inherit;
+	float: left;
+	background-color: gray;
+}
+
+#events {
+	width: 150px;
+	height: inherit;
+	float: right;
+	background-color: orange;
+}
+
 
 .century {
 	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
-	font: 200% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	font: 115% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 }
 
-.year {
+.date {
 	color: yellow;
 	font-family: monospace;
 }
