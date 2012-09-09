@@ -5,48 +5,54 @@ body {
 #timeline {
 	margin-left: auto;
 	margin-right: auto;
-	width: 400px;
+	width: 300px;
 	padding: 0px;
-	list-style-type: none;
+	padding-top: 10px;
 	display: none;
-	background-color: black;
 }
 
-#eras {
-	width: 150px;
-	height: inherit;
+canvas {
 	float: left;
-	background-color: green;
+	padding-left: 15px;
 }
 
-#markers {
-	width: 100px;
-	height: inherit;
-	float: left;
-	background-color: gray;
-}
-
-#events {
-	width: 150px;
-	height: inherit;
-	float: right;
-	background-color: orange;
-}
-
-
-.century {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+/*.century {
+	margin-left: 5px;
+	margin-right: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	position: relative;
-	font: 115% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	position: absolute;
+	font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 }
 
-.date {
-	color: yellow;
-	font-family: monospace;
+.decade {
+	margin-left: 5px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}*/
+
+.year {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: inherit;
+	float: left;
+	font: 50% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	width: 50px;
+}
+
+.timediv {
+	
+}
+
+.popup {
+	position: fixed;
+	top: 10px;
+	left: 10px;
 }
 
 .desc {

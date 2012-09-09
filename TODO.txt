@@ -1,0 +1,8 @@
+--- MAJOR ---
+Use actual data
+
+--- MINOR ---
+Implement Event.getFullDate()
+Decades and centuries
+PixelsPerYear rounding
+Julian dates (to support BCE dates)
